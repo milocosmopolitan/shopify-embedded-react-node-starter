@@ -1,8 +1,11 @@
+# Compiled ouputs
+.next/
+
 # Dependency directories
 node_modules
 
-# Compiled ouputs
-.next/
+# Environment Files
+.env
 
 # Logs
 /npm-debug.log
