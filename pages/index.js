@@ -1,11 +1,18 @@
-import { Layout, Page, TextStyle } from '@shopify/polaris';
+import { Layout, Page, EmptyState } from '@shopify/polaris';
 
 const Index = () => (
   <Page>
     <Layout>
-      <TextStyle variation="positive">
-        Sample app using React and Next.js
-      </TextStyle>
+      <EmptyState
+        heading="Discount your products temporarily"
+        action={{
+          content: 'Select products',
+          onAction: () => console.log('clicked'),
+        }}
+        image={img}
+      >
+        <p>Select products to change their price temporarily.</p>
+      </EmptyState>
     </Layout>
     
   </Page>
