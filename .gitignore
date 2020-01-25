@@ -1,2 +1,11 @@
 # Dependency directories
 node_modules
+
+# Compiled ouputs
+.next/
+
+# Logs
+/npm-debug.log
+
+# Others
+.DS_Store
